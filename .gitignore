@@ -1,0 +1,53 @@
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript build and test output
+dist/
+build/
+coverage/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Logs and runtime files
+*.log
+*.pid
+npm-debug.log*
+
+# User-uploaded product images
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Generated analytics data
+processor/data/bronze/*
+processor/data/silver/*
+processor/data/gold/*
+processor/data/rejected/*
+!processor/data/bronze/.gitkeep
+!processor/data/silver/.gitkeep
+!processor/data/gold/.gitkeep
+!processor/data/rejected/.gitkeep
+
+# Power BI temporary files
+~$*.pbix
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

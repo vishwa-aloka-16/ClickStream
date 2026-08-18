@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
+:root{font-family:'Hanken Grotesk',system-ui,sans-serif;color:#0b1c30;background:#f8f9ff;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:320px;min-height:100vh;overscroll-behavior:none}
+button,a{-webkit-tap-highlight-color:transparent}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #3980f4;outline-offset:2px}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-thumb{background:#c6c6cd;border-radius:20px}

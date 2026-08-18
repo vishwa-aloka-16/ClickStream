@@ -1,0 +1,3 @@
+export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
+
+export const VANTAGE_LOGO = 'https://lh3.googleusercontent.com/aida-public/AB6AXuD3BzYp9PGDtC2KNrnu0yC4KCN-0eA3L2Uk5js3AfjjHJ5WiRlpXm_AFWtjqkQEWnwSndoMxFpEss7-ucQMZiB_3kiR8MtHyWGjSRuZaSO3Y_-oEfiF81-0PaS2R2S15CZqOocRcs0pTtd9L4aM8iqPicmUKRQT3jGtDemtUnXYvq6Xm51ySORQlyGOnHbuG3cD3Dsh5rC77oLR1Z3URraexbRLiIjWF8NODeMs8qP44TEEeUPi9v3uzg'
