@@ -1,6 +1,6 @@
 # ClickStream Commerce Analytics
 
-An end-to-end clickstream analytics project built around **Vantage**, a demo e-commerce storefront. Customer interactions are captured by a React application, validated by an Express API, published to Apache Kafka, written to a Bronze data layer, cleaned into Parquet, aggregated into Gold metrics, and visualized in Power BI.
+An end-to-end clickstream analytics project built around a demo e-commerce store. Customer interactions are captured by a React application, validated by an Express API, published to Apache Kafka, written to a Bronze data layer, cleaned into Parquet, aggregated into Gold metrics, and visualized in Power BI.
 
 ## What this project demonstrates
 
